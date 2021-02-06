@@ -13,8 +13,7 @@
 		1A67517A25CD593B001AF7BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A67517825CD593B001AF7BD /* Main.storyboard */; };
 		1A67517C25CD593B001AF7BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A67517B25CD593B001AF7BD /* Assets.xcassets */; };
 		1A67517F25CD593B001AF7BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A67517D25CD593B001AF7BD /* LaunchScreen.storyboard */; };
-		1A67518A25CD593C001AF7BD /* hello10_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A67518925CD593C001AF7BD /* hello10_3Tests.swift */; };
-		1A67519525CD593C001AF7BD /* hello10_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A67519425CD593C001AF7BD /* hello10_3UITests.swift */; };
+		1AFA5C4F25CEE17A00FBDE8A /* autumn_leaves_PNG3608.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA5C4E25CEE17A00FBDE8A /* autumn_leaves_PNG3608.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +43,8 @@
 		1A67517E25CD593B001AF7BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A67518025CD593B001AF7BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A67518525CD593C001AF7BD /* hello10-3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello10-3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A67518925CD593C001AF7BD /* hello10_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello10_3Tests.swift; sourceTree = "<group>"; };
-		1A67518B25CD593C001AF7BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A67519025CD593C001AF7BD /* hello10-3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello10-3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A67519425CD593C001AF7BD /* hello10_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello10_3UITests.swift; sourceTree = "<group>"; };
-		1A67519625CD593C001AF7BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFA5C4E25CEE17A00FBDE8A /* autumn_leaves_PNG3608.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autumn_leaves_PNG3608.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				1A67517125CD593B001AF7BD /* hello10-3 */,
-				1A67518825CD593C001AF7BD /* hello10-3Tests */,
-				1A67519325CD593C001AF7BD /* hello10-3UITests */,
 				1A67517025CD593B001AF7BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,26 +100,9 @@
 				1A67517B25CD593B001AF7BD /* Assets.xcassets */,
 				1A67517D25CD593B001AF7BD /* LaunchScreen.storyboard */,
 				1A67518025CD593B001AF7BD /* Info.plist */,
+				1AFA5C4E25CEE17A00FBDE8A /* autumn_leaves_PNG3608.png */,
 			);
 			path = "hello10-3";
-			sourceTree = "<group>";
-		};
-		1A67518825CD593C001AF7BD /* hello10-3Tests */ = {
-			isa = PBXGroup;
-			children = (
-				1A67518925CD593C001AF7BD /* hello10_3Tests.swift */,
-				1A67518B25CD593C001AF7BD /* Info.plist */,
-			);
-			path = "hello10-3Tests";
-			sourceTree = "<group>";
-		};
-		1A67519325CD593C001AF7BD /* hello10-3UITests */ = {
-			isa = PBXGroup;
-			children = (
-				1A67519425CD593C001AF7BD /* hello10_3UITests.swift */,
-				1A67519625CD593C001AF7BD /* Info.plist */,
-			);
-			path = "hello10-3UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +210,7 @@
 			files = (
 				1A67517F25CD593B001AF7BD /* LaunchScreen.storyboard in Resources */,
 				1A67517C25CD593B001AF7BD /* Assets.xcassets in Resources */,
+				1AFA5C4F25CEE17A00FBDE8A /* autumn_leaves_PNG3608.png in Resources */,
 				1A67517A25CD593B001AF7BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A67518A25CD593C001AF7BD /* hello10_3Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A67519525CD593C001AF7BD /* hello10_3UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
