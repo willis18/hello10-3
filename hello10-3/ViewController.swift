@@ -20,6 +20,6 @@ class ViewController: UIViewController {
     {
         lblHello.text = "Hello, "+txtName.text!
     }
-    
+    //유튜브 끝
 }
 
